@@ -29,11 +29,11 @@ export default function ContactPage() {
               <div className="flex items-start">
                 <MapPin className="text-amber-500 mr-4 w-6 h-6 flex-shrink-0 mt-1" />
                 <div>
-                  <h2 className="font-semibold text-lg">Nos locaux</h2>
+                  <h2 className="font-semibold text-lg">Localisation</h2>
                   <p className="text-emerald-200">
-                    Paris, France
+                    France
                     <br />
-                    Disponibles partout dans le monde
+
                   </p>
                 </div>
               </div>

@@ -16,7 +16,7 @@ export default function ServicesPage() {
       <div className="container mx-auto px-6">
         <div className="text-center max-w-3xl mx-auto mb-20">
           <h1 className="text-5xl font-bold text-emerald-950 mb-6">
-            Nos Services
+            Nos Expertises Numidia
           </h1>
           <p className="text-xl text-gray-600">
             Des solutions modulaires et sur mesure pour répondre exactement aux

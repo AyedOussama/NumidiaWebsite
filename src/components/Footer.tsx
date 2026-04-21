@@ -104,7 +104,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li className="flex items-center">
                 <MapPin className="w-4 h-4 mr-2 text-amber-500" />
-                Paris, France
+                France
               </li>
               <li className="flex items-center mt-2">
                 <Mail className="w-4 h-4 mr-2 text-amber-500" />

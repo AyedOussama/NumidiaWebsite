@@ -51,3 +51,25 @@ html {
 .animation-delay-4000 {
   animation-delay: 4s;
 }
+
+@keyframes wave1 {
+  0% { transform: translateX(0) scaleY(1); }
+  50% { transform: translateX(-2%) scaleY(1.05); }
+  100% { transform: translateX(0) scaleY(1); }
+}
+
+@keyframes wave2 {
+  0% { transform: translateX(0) scaleY(1); }
+  50% { transform: translateX(2%) scaleY(0.95); }
+  100% { transform: translateX(0) scaleY(1); }
+}
+
+@keyframes wave3 {
+  0% { transform: translateX(0) scaleY(1); }
+  50% { transform: translateX(-1%) scaleY(1.02); }
+  100% { transform: translateX(0) scaleY(1); }
+}
+
+.animate-wave1 { animation: wave1 12s ease-in-out infinite; transform-origin: bottom; }
+.animate-wave2 { animation: wave2 16s ease-in-out infinite; transform-origin: bottom; }
+.animate-wave3 { animation: wave3 10s ease-in-out infinite; transform-origin: bottom; }

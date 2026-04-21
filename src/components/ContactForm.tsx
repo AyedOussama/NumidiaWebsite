@@ -44,7 +44,7 @@ export function ContactForm() {
         <input
           type="email"
           className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 outline-none transition-all"
-          placeholder="jean@entreprise.com"
+          placeholder="@gmail.com"
           required
         />
       </div>
@@ -54,10 +54,14 @@ export function ContactForm() {
           Sujet / Service concerné
         </label>
         <select className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-emerald-500 focus:ring-2 focus:ring-emerald-200 outline-none transition-all">
-          <option>Création de site web</option>
-          <option>Stratégie & Marketing</option>
-          <option>Automatisation & IA</option>
-          <option>Autre / Conseil</option>
+          <option>Numidia Web (Création & E-commerce)</option>
+          <option>Numidia Strategy (Stratégie & Consulting)</option>
+          <option>Numidia Growth (Acquisition & Ads)</option>
+          <option>Numidia AI (Automatisation & IA)</option>
+          <option>Pack Starter</option>
+          <option>Pack Business</option>
+          <option>Pack Premium</option>
+          <option>Autre demande</option>
         </select>
       </div>
 

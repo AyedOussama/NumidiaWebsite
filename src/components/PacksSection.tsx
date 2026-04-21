@@ -51,6 +51,9 @@ export function PacksSection() {
                     <p className="mt-3 text-sm font-medium text-emerald-400">
                       {pack.badge}
                     </p>
+                    <div className="mt-4 text-xl font-bold text-amber-400">
+                      {pack.price}
+                    </div>
                   </div>
 
                   <ul className="mb-8 space-y-5">

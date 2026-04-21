@@ -27,6 +27,7 @@ export type Service = {
 export type Pack = {
   name: string;
   badge: string;
+  price: string;
   icon: LucideIcon;
   iconClassName: string;
   checkClassName: string;
@@ -51,21 +52,6 @@ export type ProcessStep = {
 
 export const SERVICES: Service[] = [
   {
-    id: "strategy",
-    icon: Lightbulb,
-    title: "Numidia Strategy",
-    category: "Stratégie Marketing & Consulting",
-    description:
-      "Un accompagnement complet pour définir votre positionnement et tracer la voie de votre succès.",
-    features: [
-      "Audit marketing complet",
-      "Stratégie digitale sur mesure",
-      "Tunnel de vente",
-      "Branding & identité",
-      "Plan d'action (3-6 mois)",
-    ],
-  },
-  {
     id: "web",
     icon: Globe,
     title: "Numidia Web",
@@ -80,6 +66,22 @@ export const SERVICES: Service[] = [
       "SEO de base intégré",
     ],
   },
+  {
+    id: "strategy",
+    icon: Lightbulb,
+    title: "Numidia Strategy",
+    category: "Stratégie Marketing & Consulting",
+    description:
+      "Un accompagnement complet pour définir votre positionnement et tracer la voie de votre succès.",
+    features: [
+      "Audit marketing complet",
+      "Stratégie digitale sur mesure",
+      "Tunnel de vente",
+      "Branding & identité",
+      "Plan d'action (3-6 mois)",
+    ],
+  },
+
   {
     id: "growth",
     icon: TrendingUp,
@@ -110,56 +112,57 @@ export const SERVICES: Service[] = [
       "Intégration IA métier",
     ],
   },
-  {
-    id: "brand",
-    icon: Palette,
-    title: "Numidia Brand",
-    category: "Branding & Design",
-    description:
-      "Une identité visuelle marquante qui résonne avec votre audience cible.",
-    features: [
-      "Création de logo premium",
-      "Charte graphique complète",
-      "Templates réseaux sociaux",
-      "Design publicitaire",
-    ],
-  },
-  {
-    id: "social",
-    icon: Smartphone,
-    title: "Numidia Social",
-    category: "Gestion Réseaux Sociaux",
-    description:
-      "Fédérez et engagez votre communauté avec du contenu captivant et régulier.",
-    features: [
-      "Création de contenu (posts, reels)",
-      "Calendrier éditorial",
-      "Gestion IG / FB / LinkedIn",
-      "Community management",
-      "Analyse des performances",
-    ],
-  },
-  {
-    id: "secure",
-    icon: Shield,
-    title: "Numidia Secure",
-    category: "Sécurité & Performance",
-    description:
-      "Dormez sur vos deux oreilles, nous veillons sur l'intégrité de vos plateformes.",
-    features: [
-      "Protection renforcée",
-      "Sauvegardes automatiques",
-      "Maintenance technique",
-      "Optimisation vitesse",
-      "Monitoring 24/7",
-    ],
-  },
+  // {
+  //   id: "brand",
+  //   icon: Palette,
+  //   title: "Numidia Brand",
+  //   category: "Branding & Design",
+  //   description:
+  //     "Une identité visuelle marquante qui résonne avec votre audience cible.",
+  //   features: [
+  //     "Création de logo premium",
+  //     "Charte graphique complète",
+  //     "Templates réseaux sociaux",
+  //     "Design publicitaire",
+  //   ],
+  // },
+  // {
+  //   id: "social",
+  //   icon: Smartphone,
+  //   title: "Numidia Social",
+  //   category: "Gestion Réseaux Sociaux",
+  //   description:
+  //     "Fédérez et engagez votre communauté avec du contenu captivant et régulier.",
+  //   features: [
+  //     "Création de contenu (posts, reels)",
+  //     "Calendrier éditorial",
+  //     "Gestion IG / FB / LinkedIn",
+  //     "Community management",
+  //     "Analyse des performances",
+  //   ],
+  // },
+  // {
+  //   id: "secure",
+  //   icon: Shield,
+  //   title: "Numidia Secure",
+  //   category: "Sécurité & Performance",
+  //   description:
+  //     "Dormez sur vos deux oreilles, nous veillons sur l'intégrité de vos plateformes.",
+  //   features: [
+  //     "Protection renforcée",
+  //     "Sauvegardes automatiques",
+  //     "Maintenance technique",
+  //     "Optimisation vitesse",
+  //     "Monitoring 24/7",
+  //   ],
+  // },
 ];
 
 export const PACKS: Pack[] = [
   {
     name: "Pack Starter",
     badge: "Pour se lancer",
+    price: "À partir de 1500 €",
     icon: Rocket,
     iconClassName: "text-emerald-400",
     checkClassName: "text-emerald-400",
@@ -173,6 +176,7 @@ export const PACKS: Pack[] = [
   {
     name: "Pack Business",
     badge: "Croissance Rapide",
+    price: "À partir de 2500 €",
     icon: TrendingUp,
     iconClassName: "text-amber-500",
     checkClassName: "text-amber-500",
@@ -186,6 +190,7 @@ export const PACKS: Pack[] = [
   {
     name: "Pack Premium",
     badge: "La Totale",
+    price: "À partir de 4500 €",
     icon: Star,
     iconClassName: "text-violet-400",
     checkClassName: "text-emerald-400",
