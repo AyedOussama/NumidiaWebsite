@@ -1,10 +1,10 @@
-import { 
-  ArrowRight, 
-  CheckCircle, 
-  TrendingUp, 
-  BarChart3, 
-  Activity, 
-  Sparkles 
+import {
+  ArrowRight,
+  CheckCircle,
+  TrendingUp,
+  BarChart3,
+  Activity,
+  Sparkles
 } from "lucide-react";
 import Image from "next/image";
 
@@ -18,7 +18,7 @@ export default function HomePage() {
     <div className="animate-fade-in">
       <section className="relative pt-32 pb-32 lg:pt-40 lg:pb-40 overflow-hidden bg-emerald-950 text-white min-h-[95vh] flex items-center">
         {/* Background Gradients */}
-        <div className="absolute inset-0 z-0 opacity-20">
+        <div className="absolute inset-0 z-0 opacity-20 hidden md:block">
           <div className="absolute -top-24 -right-24 w-96 h-96 bg-amber-500 rounded-full blur-3xl" />
           <div className="absolute bottom-0 -left-24 w-[40rem] h-[40rem] bg-emerald-600 rounded-full blur-3xl" />
         </div>
@@ -30,7 +30,7 @@ export default function HomePage() {
               <div className="inline-flex items-center space-x-2 bg-emerald-900/50 border border-emerald-700/50 rounded-full px-4 py-2 mb-8 backdrop-blur-sm">
                 <span className="w-2 h-2 rounded-full bg-amber-500 animate-pulse" />
                 <span className="text-sm font-medium text-emerald-100">
-                  Nouvelle agence digitale à Paris
+                  Nouvelle agence digitale
                 </span>
               </div>
               <h1 className="text-5xl lg:text-7xl font-bold leading-tight mb-6">

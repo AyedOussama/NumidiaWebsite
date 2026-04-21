@@ -5,7 +5,7 @@ import { PACKS } from "@/lib/data";
 
 export function PacksSection() {
   return (
-    <section id="packs" className="mt-32 scroll-mt-32">
+    <section id="packs" className="mt-4 scroll-mt-32">
       <div className="relative py-8">
         <div className="absolute inset-0 origin-top-right rounded-[2.5rem] bg-[#001f17] shadow-2xl shadow-emerald-950/20 md:-skew-y-2" />
 

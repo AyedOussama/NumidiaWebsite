@@ -24,6 +24,14 @@ export default function ServicesPage() {
           </p>
         </div>
 
+        <div className="mb-32">
+          <PacksSection />
+        </div>
+
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-4xl font-bold text-emerald-950 mb-6">Nos Expertises en détail</h2>
+        </div>
+
         <div className="space-y-24">
           {SERVICES.map((service, index) => {
             const Icon = service.icon;
@@ -74,8 +82,6 @@ export default function ServicesPage() {
             );
           })}
         </div>
-
-        <PacksSection />
       </div>
     </div>
   );
