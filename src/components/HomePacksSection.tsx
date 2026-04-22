@@ -16,7 +16,7 @@ export function HomePacksSection() {
               </span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-emerald-950 mb-6">
-              Des offres packagées pour{" "}
+              Des offres sur mesure pour {" "}
               <span className="text-amber-500 relative inline-block">
                 vos Projets
                 <svg className="absolute w-full h-3 -bottom-1 left-0 text-amber-200 -z-10" viewBox="0 0 100 10" preserveAspectRatio="none">
@@ -45,8 +45,8 @@ export function HomePacksSection() {
               <div
                 key={pack.name}
                 className={`relative rounded-[2.5rem] p-8 transition-all duration-500 flex flex-col group ${isPremium
-                    ? "bg-gradient-to-b from-amber-400 to-amber-500 text-emerald-950 shadow-[0_20px_50px_rgba(245,158,11,0.3)] lg:-translate-y-4 border border-amber-300"
-                    : isCenter
+                  ? "bg-gradient-to-b from-amber-400 to-amber-500 text-emerald-950 shadow-[0_20px_50px_rgba(245,158,11,0.3)] lg:-translate-y-4 border border-amber-300"
+                  : isCenter
                     ? "bg-emerald-950 text-white shadow-[0_20px_50px_rgba(4,47,46,0.3)] lg:-translate-y-2 border border-emerald-800"
                     : "bg-emerald-50 text-emerald-950 hover:bg-emerald-100/50 border border-emerald-100/50 hover:shadow-xl mt-0 lg:mt-4"
                   }`}
@@ -63,7 +63,7 @@ export function HomePacksSection() {
                 )}
 
                 <div className="mb-8">
-                  <div className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 shadow-inner transition-transform duration-500 group-hover:scale-110 ${isPremium 
+                  <div className={`w-14 h-14 rounded-2xl flex items-center justify-center mb-6 shadow-inner transition-transform duration-500 group-hover:scale-110 ${isPremium
                     ? "bg-emerald-950 text-amber-500 shadow-md"
                     : isCenter ? "bg-emerald-800/50 text-amber-400" : "bg-white text-emerald-600 shadow-sm"
                     }`}>
@@ -93,8 +93,8 @@ export function HomePacksSection() {
                 <Link
                   href="/contact"
                   className={`mt-auto w-full py-4 rounded-xl flex items-center justify-center font-bold transition-all ${isPremium
-                      ? "bg-emerald-950 text-amber-400 hover:bg-emerald-900 shadow-lg shadow-emerald-950/30"
-                      : isCenter
+                    ? "bg-emerald-950 text-amber-400 hover:bg-emerald-900 shadow-lg shadow-emerald-950/30"
+                    : isCenter
                       ? "bg-amber-500 text-emerald-950 hover:bg-amber-400 shadow-lg shadow-amber-500/25"
                       : "bg-white text-emerald-900 border border-emerald-200 hover:border-emerald-300 hover:shadow-md"
                     }`}
