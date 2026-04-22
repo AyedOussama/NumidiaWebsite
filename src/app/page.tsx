@@ -10,6 +10,7 @@ import Image from "next/image";
 
 import { Button } from "@/components/Button";
 import { NumidiaProcess } from "@/components/NumidiaProcess";
+import { HomePacksSection } from "@/components/HomePacksSection";
 import { PortfolioCard } from "@/components/PortfolioCard";
 import { PORTFOLIO, SERVICES } from "@/lib/data";
 
@@ -169,7 +170,7 @@ export default function HomePage() {
                 Une vision fraîche du digital.
               </h2>
               <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-                Basée à Paris, Numidia n’est pas une agence comme les autres.
+                Numidia n’est pas une agence comme les autres.
                 Nous sommes nés d’une volonté de briser les codes et d’apporter
                 des solutions ultra-modernes aux entreprises ambitieuses.
               </p>
@@ -204,7 +205,9 @@ export default function HomePage() {
 
       <NumidiaProcess />
 
-      <section className="py-24 bg-emerald-50">
+      <HomePacksSection />
+
+      {/* <section className="py-24 bg-emerald-50">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-4xl font-bold text-emerald-950 mb-6">
@@ -249,7 +252,7 @@ export default function HomePage() {
             </Button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id="realisations" className="py-24 bg-white scroll-mt-24">
         <div className="container mx-auto px-6">
