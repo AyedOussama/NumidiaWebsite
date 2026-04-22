@@ -29,7 +29,7 @@ export default function ServicesPage() {
         </div>
 
         <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-4xl font-bold text-emerald-950 mb-6">Nos Expertises en détail</h2>
+          <h2 className="text-4xl font-bold text-emerald-950 mb-6">Nos services d’Experts plus en détail</h2>
         </div>
 
         <div className="space-y-24">

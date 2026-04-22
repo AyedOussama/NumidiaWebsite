@@ -237,7 +237,7 @@ export const PORTFOLIO: PortfolioProject[] = [
 export const PROCESS_STEPS: ProcessStep[] = [
   {
     id: 1,
-    title: "Discovery",
+    title: "Diagnostique",
     desc: "Analyse approfondie de vos besoins, de votre marché cible et audit de votre existant.",
     icon: Search,
   },
